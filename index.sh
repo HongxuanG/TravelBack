@@ -16,7 +16,7 @@ _() {
   GIT_AUTHOR_DATE="${YEAR}-07-05T18:00:00" \
     GIT_COMMITTER_DATE="${YEAR}-07-05T18:00:00" \
     git commit -m "${YEAR}"
-  git remote add origin "https://github.com/${USERNAME}/${YEAR}.git"
+  git remote add origin "git@github.com:${USERNAME}/${YEAR}.git"
   git branch -M main
   git push -u origin main -f
   cd ..
