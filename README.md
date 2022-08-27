@@ -6,3 +6,8 @@
 
 
 
+# Usage
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/HongxuanG/TravelBack/main/index.sh)"
+```
